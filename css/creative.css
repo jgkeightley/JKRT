@@ -414,3 +414,8 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+/*added by Jordie*/
+.subscript{
+  font-size: 0.5em;
+}
