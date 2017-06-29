@@ -112,6 +112,10 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
+    background-image: url('../img/j-hand-white.png');
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -132,6 +136,10 @@ aside {
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #003049;
     font-size: 14px;
+    background-image: url('../img/j-hand.png');
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
