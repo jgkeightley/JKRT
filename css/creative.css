@@ -74,6 +74,11 @@ aside {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  margin-left: 25px;
+  background-image: url('../img/j-hand.png');
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -426,4 +431,8 @@ body {
 /*added by Jordie*/
 .subscript{
   font-size: 0.5em;
+}
+
+.banner{
+  width: 100%;
 }
