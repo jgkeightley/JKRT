@@ -1,0 +1,163 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:25
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+/*[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}*/
+
+.fi {
+  display: inline-block;
+  font-family: Flaticon;
+  font-style: normal;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fi-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fi-2x {
+  font-size: 2em;
+}
+.fi-3x {
+  font-size: 3em;
+}
+.fi-4x {
+  font-size: 4em;
+}
+.fi-5x {
+  font-size: 5em;
+}
+.fi-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+.flaticon-aromatherapy:before { content: "\f100"; }
+.flaticon-bamboo-sticks:before { content: "\f101"; }
+.flaticon-baseball:before { content: "\f102"; }
+.flaticon-bath:before { content: "\f103"; }
+.flaticon-bath-1:before { content: "\f104"; }
+.flaticon-bathing:before { content: "\f105"; }
+.flaticon-bathrobe:before { content: "\f106"; }
+.flaticon-beauty:before { content: "\f107"; }
+.flaticon-bicycle:before { content: "\f108"; }
+.flaticon-body-treatments:before { content: "\f109"; }
+.flaticon-breath-control:before { content: "\f10a"; }
+.flaticon-calendar:before { content: "\f10b"; }
+.flaticon-capsule:before { content: "\f10c"; }
+.flaticon-chair-for-treatments:before { content: "\f10d"; }
+.flaticon-count-calories:before { content: "\f10e"; }
+.flaticon-dancer:before { content: "\f10f"; }
+.flaticon-diet:before { content: "\f110"; }
+.flaticon-drink-water:before { content: "\f111"; }
+.flaticon-emotional:before { content: "\f112"; }
+.flaticon-environmental:before { content: "\f113"; }
+.flaticon-exercise:before { content: "\f114"; }
+.flaticon-exercising:before { content: "\f115"; }
+.flaticon-extreme-sports:before { content: "\f116"; }
+.flaticon-face-mask:before { content: "\f117"; }
+.flaticon-face-treatments:before { content: "\f118"; }
+.flaticon-feel-free:before { content: "\f119"; }
+.flaticon-fitness:before { content: "\f11a"; }
+.flaticon-flower:before { content: "\f11b"; }
+.flaticon-foot-bath:before { content: "\f11c"; }
+.flaticon-fresh-smoothie:before { content: "\f11d"; }
+.flaticon-full-energy:before { content: "\f11e"; }
+.flaticon-groceries:before { content: "\f11f"; }
+.flaticon-gym:before { content: "\f120"; }
+.flaticon-hand-care:before { content: "\f121"; }
+.flaticon-harmony:before { content: "\f122"; }
+.flaticon-healthy-nutrition:before { content: "\f123"; }
+.flaticon-healthy-shakes:before { content: "\f124"; }
+.flaticon-heart:before { content: "\f125"; }
+.flaticon-hot-herbal:before { content: "\f126"; }
+.flaticon-jumping:before { content: "\f127"; }
+.flaticon-ladder:before { content: "\f128"; }
+.flaticon-lightness:before { content: "\f129"; }
+.flaticon-lotus:before { content: "\f12a"; }
+.flaticon-love-yourself:before { content: "\f12b"; }
+.flaticon-man:before { content: "\f12c"; }
+.flaticon-mask:before { content: "\f12d"; }
+.flaticon-massage:before { content: "\f12e"; }
+.flaticon-massage-oil:before { content: "\f12f"; }
+.flaticon-meditation:before { content: "\f130"; }
+.flaticon-meditation-1:before { content: "\f131"; }
+.flaticon-meditation-2:before { content: "\f132"; }
+.flaticon-meditation-3:before { content: "\f133"; }
+.flaticon-meditation-4:before { content: "\f134"; }
+.flaticon-music:before { content: "\f135"; }
+.flaticon-natural-energy:before { content: "\f136"; }
+.flaticon-no-alcohol:before { content: "\f137"; }
+.flaticon-no-fast-food:before { content: "\f138"; }
+.flaticon-no-smoking:before { content: "\f139"; }
+.flaticon-nutrionist:before { content: "\f13a"; }
+.flaticon-occupation:before { content: "\f13b"; }
+.flaticon-organic-food:before { content: "\f13c"; }
+.flaticon-pool:before { content: "\f13d"; }
+.flaticon-reading:before { content: "\f13e"; }
+.flaticon-relaxing:before { content: "\f13f"; }
+.flaticon-running:before { content: "\f140"; }
+.flaticon-sauna:before { content: "\f141"; }
+.flaticon-sauna-1:before { content: "\f142"; }
+.flaticon-schedule:before { content: "\f143"; }
+.flaticon-shower:before { content: "\f144"; }
+.flaticon-skincare:before { content: "\f145"; }
+.flaticon-social:before { content: "\f146"; }
+.flaticon-solarium:before { content: "\f147"; }
+.flaticon-spa:before { content: "\f148"; }
+.flaticon-spa-effect:before { content: "\f149"; }
+.flaticon-spa-room:before { content: "\f14a"; }
+.flaticon-spa-salon:before { content: "\f14b"; }
+.flaticon-spa-tools:before { content: "\f14c"; }
+.flaticon-spiritual:before { content: "\f14d"; }
+.flaticon-stick-man:before { content: "\f14e"; }
+.flaticon-stone-massage:before { content: "\f14f"; }
+.flaticon-strong:before { content: "\f150"; }
+.flaticon-sunbath:before { content: "\f151"; }
+.flaticon-surfing:before { content: "\f152"; }
+.flaticon-swimming:before { content: "\f153"; }
+.flaticon-t-shirt:before { content: "\f154"; }
+.flaticon-table-of-treatments:before { content: "\f155"; }
+.flaticon-tea-ceremony:before { content: "\f156"; }
+.flaticon-towel:before { content: "\f157"; }
+.flaticon-training:before { content: "\f158"; }
+.flaticon-treatment-specialist:before { content: "\f159"; }
+.flaticon-treatments:before { content: "\f15a"; }
+.flaticon-vitamins:before { content: "\f15b"; }
+.flaticon-walking:before { content: "\f15c"; }
+.flaticon-weight-loss:before { content: "\f15d"; }
+.flaticon-weightlifting:before { content: "\f15e"; }
+.flaticon-wellness-center:before { content: "\f15f"; }
+.flaticon-wellness-coach:before { content: "\f160"; }
+.flaticon-wellness-group:before { content: "\f161"; }
+.flaticon-wellness-tourism:before { content: "\f162"; }
+.flaticon-yoga:before { content: "\f163"; }
