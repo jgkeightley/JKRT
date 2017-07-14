@@ -445,3 +445,8 @@ body {
   background-position: center;
   background-image: linear-gradient(to right, rgba(0, 48, 73, 0.3), rgba(0, 48, 73, 0.8)), url('../img/towels.jpg');
 }
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
