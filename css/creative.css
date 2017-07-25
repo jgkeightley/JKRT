@@ -456,3 +456,7 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
+
+#mc_embed_signup input.email {
+  width: 100%;
+}
