@@ -460,3 +460,7 @@ footer {
 #mc_embed_signup input.email {
   width: 100% !important;
 }
+
+#map {
+  padding: 0px;
+}
