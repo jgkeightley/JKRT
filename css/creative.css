@@ -508,6 +508,11 @@ footer {
   font-size: 16px;
   margin-bottom: 50px;
 }
+
+.shedul-frame {
+  min-height: 350px;
+}
+
 @media (min-width: 768px) {
   .half-header {
     min-height: 40%;
@@ -533,5 +538,9 @@ footer {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .shedul-frame {
+    min-height: 650px;
   }
 }
